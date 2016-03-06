@@ -1,7 +1,7 @@
 from flask import Flask
-application = Flask(__name__)
+app = Flask(__name__)
 
-@application.route("/")
+@app.route("/")
 def hello():
-        return "<h1 style='color:blue'>Hello There!</h1>"
+    return "<h1 style='color:blue'>Hello There!</h1>"
 

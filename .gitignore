@@ -35,3 +35,6 @@ nosetests.xml
 .pydevproject
 
 ssh_keys
+deploy_key
+prod
+deploy_prod.sh
